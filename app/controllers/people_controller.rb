@@ -1,5 +1,6 @@
 class PeopleController < ApplicationController
-  
+  layout 'people'
+
   def index
     @msg = 'Peson data.'
     @data = Person.all
@@ -39,6 +40,16 @@ class PeopleController < ApplicationController
     redirect_to '/people'
   end
 
+  def find
+    @msg = 'please type search word...'
+    @people = Array.new
+    if request.post? then
+      f = params[:find].split(',')
+      @people = Person.all.limit(f[0]).offset(f[1])
+    else
+      @people = Person.all
+    end
+  end
 
   private
   def person_params
