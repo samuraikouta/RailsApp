@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180311083739) do
+ActiveRecord::Schema.define(version: 20180311191158) do
 
   create_table "blogconfigs", force: :cascade do |t|
     t.text "title"
@@ -50,6 +50,15 @@ ActiveRecord::Schema.define(version: 20180311083739) do
     t.integer "person_id"
     t.text "title"
     t.text "message"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "mycontacts", force: :cascade do |t|
+    t.text "name"
+    t.integer "age"
+    t.boolean "nationality"
+    t.text "mail"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
