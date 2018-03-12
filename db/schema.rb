@@ -10,7 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180311191158) do
+ActiveRecord::Schema.define(version: 20180312095156) do
+
+  create_table "answers", force: :cascade do |t|
+    t.integer "question_id"
+    t.text "content"
+    t.text "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "blogconfigs", force: :cascade do |t|
     t.text "title"
@@ -67,6 +75,15 @@ ActiveRecord::Schema.define(version: 20180311191158) do
     t.text "name"
     t.integer "age"
     t.text "mail"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "questions", force: :cascade do |t|
+    t.text "title"
+    t.text "content"
+    t.text "name"
+    t.boolean "finished"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
