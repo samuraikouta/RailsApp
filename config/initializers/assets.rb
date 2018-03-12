@@ -38,3 +38,6 @@ Rails.application.config.assets.precompile += %w( blogs.js )
 
 Rails.application.config.assets.precompile += %w( questions.css )
 Rails.application.config.assets.precompile += %w( questions.js )
+
+Rails.application.config.assets.precompile += %w( questionaries.css )
+Rails.application.config.assets.precompile += %w( questionaries.js )
