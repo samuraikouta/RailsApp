@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get 'ajax/index'
+  
+  get 'ajax/data'
+  post 'ajax/data'
+
   resources :questionary_results
   resources :questionary_choices
   resources :questionary_items

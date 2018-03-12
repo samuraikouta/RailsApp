@@ -1,0 +1,52 @@
+// Place all the styles related to the ajax controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	color: darkgray;
+	font-size: 14pt;
+	margin: 10px 20px;
+}
+
+h1 {
+	color: darkgray;
+	font-size: 28pt;
+	margin: 50px 0px;
+}
+a {
+	color: #909090;
+	text-decoration: none;
+}
+a:hover {
+	color: darkgray;
+	text-decoration: underline;
+}
+table.info {
+	width: 300px;
+}
+table tr th {
+	background: #a0a0c0;
+	color: #f6f6f6;
+	padding: 10px;
+	font-size: 12pt;
+	font-weight:bold;
+}
+
+table tr td {
+	background: white;
+	color: #6060a0;
+	padding: 5px 10px;
+	font-size: 12pt;
+	border: 1px solid #eee;
+}
+
+th.title {
+
+}
+td.desc {
+	color: #9090c0;
+	background: white;
+	font-size:10pt;
+	background: white;
+	border: 1px solid #ccf;
+}
