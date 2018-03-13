@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :data_pages
   devise_for :accounts
   get 'ajax/index'
   

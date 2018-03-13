@@ -1,0 +1,80 @@
+// Place all the styles related to the data_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body {
+	color: darkgray;
+	font-size: 14pt;
+	margin: 10px 20px;
+}
+
+h1 {
+	color: darkgray;
+	font-size: 28pt;
+	margin: 50px 0px;
+}
+
+p {
+	font-size: 12pt;
+}
+
+div {
+	font-size:10pt;
+	margin: 10px 0px;
+}
+
+table tr th {
+	background: #a0a0c0;
+	color: #f6f6f6;
+	padding: 10px;
+	font-size: 12pt;
+	font-weight:bold;
+}
+
+table tr td {
+	background: white;
+	color: #6060a0;
+	padding: 5px 10px;
+	font-size: 12pt;
+	border: 1px solid #eee;
+}
+
+nav.pagination {
+	font-size:10pt;
+}
+span.first {
+	padding: 3px;
+	margin: 0.5px;
+	border: 1px solid #aaf;
+}
+span.prev {
+	padding: 3px;
+	margin: 0.5px;
+	border: 1px solid #aaf;
+}
+span.page {
+	padding: 3px;
+	margin: 0.5px;
+	border: 1px solid #aaf;
+}
+span.next {
+	padding: 3px;
+	margin: 0.5px;
+	border: 1px solid #aaf;
+}
+span.last {
+	padding: 3px;
+	margin: 0.5px;
+	border: 1px solid #aaf;
+}
+span.page current {
+	padding: 3px;
+	margin: 0.5px;
+	border: 1px solid #aaf;
+}
+span.page gap {
+	margin: 3px;
+	padding: 10px 5px;
+}
+
