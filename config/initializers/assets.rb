@@ -44,3 +44,9 @@ Rails.application.config.assets.precompile += %w( questionaries.js )
 
 Rails.application.config.assets.precompile += %w( ajax.css )
 Rails.application.config.assets.precompile += %w( ajax.js )
+
+Rails.application.config.assets.precompile += %w( board_messages.css )
+Rails.application.config.assets.precompile += %w( board_messages.js )
+
+Rails.application.config.assets.precompile += %w( board_users.css )
+Rails.application.config.assets.precompile += %w( board_users.js )
